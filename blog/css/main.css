@@ -1,0 +1,30 @@
+.article__paragraph {
+  line-height: 2em; }
+  .article__paragraph::first-letter {
+    font-weight: bold;
+    color: #5180c8;
+    font-size: 1.5em; }
+  .article__paragraph--first::first-letter {
+    font-weight: bold;
+    color: #5180c8;
+    font-size: 2em; }
+
+.main-header {
+  background-color: rgba(81, 128, 200, 0.5); }
+  .main-header__title {
+    text-align: center; }
+  .main-header__tagline {
+    text-align: center; }
+
+.article__title {
+  text-align: center; }
+
+.article__featured-image {
+  box-shadow: 10px 10px 5px rgba(81, 128, 200, 0.5);
+  border: 2px #5180c8 solid; }
+
+.author-info__image {
+  border: 2px #5180c8 solid;
+  filter: invert(75%); }
+
+/*# sourceMappingURL=main.css.map */
